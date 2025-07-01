@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main-bodyy {
+  background-color: #192c63;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.wraper {
+  width: 90%;
+  margin: auto;
+}
+
+.nabar {
+  display: flex;
+  justify-content: space-between; /* Corregido "space-betwen" */
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.logo-text {
+  font-size: 2.5em;
+}
+.logo-text span {
+  color: rgb(10, 165, 165); /* Faltaba punto y coma */
+  text-shadow: 1px 1px 3px white; /* Faltaban los dos puntos */
+}
+
+.nav-menuu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+.nav-menuu a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-ctn {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Corregido: se usaba coma en lugar de espacio */
+  gap: 3rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.foto-container img {
+  width: 300px; /* Tamaño ajustado (antes era solo "600") */
+  height: auto; /* Proporción automática */
+  border-radius: 10px;
+  transition: transform 0.5s; /* Faltaban los dos puntos */
+}
+.centered{
+  text-align: center;
+}
+
+
+.boton {
+  background: #bb0b83;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer; /* Corregido "ponter" */
+}
+
+.typingg {
+  overflow: hidden; /* Corregido "hiddn" */
+  border-right: 2px solid white; /* Faltaba "solid" y valor de color */
+}
+@keyframes typing {
+  from { width: 0; } /* Estado inicial */
+  to { width: 100%; }
+}
+
+.projectcard {
+  background-color: #233a7a;
+  padding: 2rem;
+  border-radius: 9px;
+  width: 200px;
+}
+
+.img-top {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formularioo {
+  max-width: 600px; /* Faltaba "px" */
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.inpt {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inptt {
+  height: 100px;
+  width: 100%;
+}
+
+.bt-submit { /* Corregido nombre (antes "bt-submit") */
+  background-color: blueviolet;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.redessociales {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
